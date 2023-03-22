@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CURRICULUM VITAE</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../normalize.css"> <!-- baje el normalize-->
+    <link rel="stylesheet" type="text/css" href="estilos.css" /> <!--para enlazar con css-->
+    <script src="https://kit.fontawesome.com/5fe20db98f.js" crossorigin="anonymous"></script> <!-- para front awesome-->
+    
+</head>
+
+
+
+<body style="background-color: black;">
+
+  
+      <header > 
+        <i class="fa-sharp fa-solid fa-user"></i>
+           <h1 id="titulo" > CURRICULUM VITAE</h1> 
+        <nav class="portada">
+          
+           <li style="font-family: 'Courier New', Courier, monospace;">  
+             <a href="datos.html" class="datos"> <b>DATOS PERSONALES</b></a>
+           </li>
+           <br/> 
+           <li style="font-family: 'Courier New', Courier, monospace;"> 
+             <a href="estudios.html" class="estudios"> <b>ESTUDIOS CURSADOS</b></a>
+           </li>
+           <br> 
+           <li style="font-family: 'Courier New', Courier, monospace;">  
+             <a href="laboral.html" class="laboral"> <b>EXPERIENCIA LABORAL</b></a>
+           </li>
+           <br> 
+           <li style="font-family: 'Courier New', Courier, monospace;"> 
+             <a href="objetivos.html" class="objetivos"> <b>OBJETIVOS Y HABILIDADES</b></a>
+           </li>
+           <br/> 
+        </nav>
+    </header>
+    
+    <br> 
+    <br> 
+    <br> 
+    <br> 
+
+
+    <footer> <!--pie de pagina-->
+    <form>
+        <h6 style="color: white;"> <small>ELEGIR PARA VER DATOS </small></h6> 
+        <br>
+        <label for="opcion" style="color: blanchedalmond;"></label>
+        <input list="menu" required="" placeholder="ingrese su opcion">
+        <input type="submit" value="Enviar" onclick="obj ()">
+        <datalist id="menu">
+            <option value="DATOS PERSONALES"></option>
+            <option value="ESTUDIOS CURSADOS"></option>
+            <option value="EXPERIENCIA LABORAL"></option>
+            <option value="OBJETIVOS Y HABILIDADES" ></option>
+        </datalist>
+                
+    </form>
+    </footer>
+    <script >
+      function obj (){
+        alert("En MANTENIMIENTO, selecione desde MENU");
+      }
+    
+    </script>
+</body>
+</html>
